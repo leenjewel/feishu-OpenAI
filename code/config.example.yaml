@@ -7,6 +7,8 @@ APP_VERIFICATION_TOKEN: xxx
 BOT_NAME: chatGpt
 # openAI key 支持负载均衡 可以填写多个key 用逗号分隔
 OPENAI_KEY: sk-xxx,sk-xxx,sk-xxx
+# openAI 使用的模型，如：gpt-3.5-turbo， gpt-4
+OPENAI_MODEL: gpt-3.5-turbo
 # 服务器配置
 HTTP_PORT: 9000
 HTTPS_PORT: 9001
